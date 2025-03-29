@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = ({ search, setsearch }) => {
+const Navbar = ({ search, setSearch }) => {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
 
@@ -24,7 +24,7 @@ const Navbar = ({ search, setsearch }) => {
           placeholder="search user..."
           className="outline-0 border-[0.5px] border-gray-400 rounded-md p-2"
           value={search}
-          onChange={(e) => setsearch(e.target.value)}
+          onChange={(e) => setSearch(e.target.value)}
         />
       </div>
       <div className="flex items-center gap-4">

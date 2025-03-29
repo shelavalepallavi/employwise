@@ -5,13 +5,13 @@ import Login from './components/Login';
 import UsersList from './components/UsersList';
 
 const App = () => {
-  const [search, setsearch] = useState('')
+  const [search, setSearch] = useState('')
   return (
    <Router>
      <div className='w-full'>
-      <Navbar search={search} setsearch={setsearch} />
+      <Navbar search={search} setSearch={setSearch} />
       <Routes>
-        <Route path="/" element={<Navigate to="/users" />} />
+        <Route path="/" element={<Navigate to="/users" replace/>} />
         <Route path='/login' element={<Login/>}/>
         <Route path='/users' element={<UsersList search={search} />}/>
       </Routes>
