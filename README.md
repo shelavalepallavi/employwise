@@ -6,7 +6,8 @@ A React-based user management application that interacts with the Reqres API. Bu
 🔗 [EmployWise Hub](https://employwisehub.netlify.app/users)
 
 ## Home
-🔗 [dashboard](public/dashboard.png)
+![Dashboard](public/dashboard.png)
+
 
 ## Features
 - Fetch and display users from the Reqres API
