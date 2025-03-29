@@ -12,8 +12,8 @@ const Navbar = ({ search, setsearch }) => {
  
   
   return (
-    <div className="flex flex-col sm:flex-row  justify-between items-center p-4 shadow-sm">
-      <div className="flex items-center gap-6">
+    <div className="flex flex-col sm:flex-row  justify-between items-center gap-2 py-4 px-7 shadow-sm">
+      <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
         <Link to="/">
           <h1 className="text-2xl font-semibold cursor-pointer">
             <span className="text-indigo-700 font-bold">Employ</span>Wise
