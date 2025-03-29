@@ -11,9 +11,7 @@ const UsersList = ({search}) => {
   const [editingUser, setEditingUser] = useState(null);
   const [deletingUser, setDeletingUser] = useState(null);
 
-  useEffect(() => {
-    fetchUsers(page)
-  }, [page]);
+
 
   const fetchUsers = async (pageNumber) => {
     try {
@@ -28,6 +26,9 @@ const UsersList = ({search}) => {
       console.log("Error fetching users:", error);
     }
   };
+  useEffect(() => {
+    fetchUsers(page)
+  }, [page]);
 
   const handleCloseEdit = () => {
     setOpenEdit(false);
