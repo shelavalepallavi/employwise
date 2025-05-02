@@ -1,15 +1,15 @@
-# EmployWise Hub
+# 🚀EmployWise Hub
 
 A React-based user management application that interacts with the Reqres API. Built with Vite for fast development and optimized performance.
 
-## Live Demo
+## 🌐 Live Demo
 🔗 [EmployWise Hub](https://employwisehub.netlify.app/users)
 
-## Home
+## 🏠 Home
 ![Dashboard](public/dashboard.png)
 
 
-## Features
+## ✨ Features
 - Fetch and display users from the Reqres API
 - Navigate between different pages using React Router
 - Styled with Tailwind CSS for a clean UI
