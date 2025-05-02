@@ -21,23 +21,23 @@ Ensure you have the following installed:
 - 🟢 **Node.js** (>=14 recommended)
 - 📦**npm** 
 
-### Clone the Repository
+### 📥 Clone the Repository
 ```sh
 git clone https://github.com/shelavalepallavi/employwise.git
 ```
 
-### Install Dependencies
+### 📦 Install Dependencies
 ```sh
 npm install
 ```
 
-### Run the Development Server
+### ▶️  Run the Development Server
 ```sh
 npm run dev
 ```
 This will start a local server, and you can access the app at `http://localhost:5173` (default Vite port).
 
-## Dependencies
+## 📚 Dependencies
 The project uses the following dependencies:
 - **React Router** - For client-side routing
 - **Axios** - For API requests
