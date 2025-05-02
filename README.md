@@ -39,9 +39,9 @@ This will start a local server, and you can access the app at `http://localhost:
 
 ## 📚 Dependencies
 The project uses the following dependencies:
-- ** 🔀 React Router** - For client-side routing
-- ** 📡 Axios** - For API requests
-- ** 💅 Tailwind CSS** - For styling
+- **🔀 React Router** - For client-side routing
+- **📡 Axios** - For API requests
+- **💅 Tailwind CSS** - For styling
 
 ### Additional Considerations
 - The app fetches data from the **Reqres API** (https://reqres.in/)
