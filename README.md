@@ -10,9 +10,9 @@ A React-based user management application that interacts with the Reqres API. Bu
 
 
 ## ✨ Features
-- Fetch and display users from the Reqres API
-- Navigate between different pages using React Router
-- Styled with Tailwind CSS for a clean UI
+- 👥 Fetch and display users from the Reqres API
+- 🧭 Navigate between different pages using React Router
+- 🎨 Styled with Tailwind CSS for a clean UI
 
 ## Installation & Setup
 
