@@ -14,12 +14,12 @@ A React-based user management application that interacts with the Reqres API. Bu
 - 🧭 Navigate between different pages using React Router
 - 🎨 Styled with Tailwind CSS for a clean UI
 
-## Installation & Setup
+## ⚙️  Installation & Setup
 
-### Prerequisites
+### ✅ Prerequisites
 Ensure you have the following installed:
-- **Node.js** (>=14 recommended)
-- **npm** 
+- 🟢 **Node.js** (>=14 recommended)
+- 📦**npm** 
 
 ### Clone the Repository
 ```sh
